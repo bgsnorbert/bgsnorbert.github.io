@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<title>Ristoranti</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="restaurant - fresh food - free delivery">
+  <meta name="description" content="restaurant, bootstrap html5 website">
+  <link rel="icon" href="images/favicon.ico" type="image/ico" sizes="16x16">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/easy-reveal.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!-- Top short contact start -->
+    <div class="container-fluid short-contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-4 phone-number">
+                    <a href="tel:0123-123456789"><i class="fas fa-mobile-alt"></i> Phone: 0123-123456789</a>
+                </div>
+                <div class="col-4 open-time">
+                    <span><i class="far fa-clock"></i> Open daily: 09:30 am - 11:30 pm</span>
+                </div>
+                <div class="col-4 social-media">
+                    <a href="#"><i class="fab fa-facebook-square" style="color: #4267b2;"></i></a> 
+                    <a href="#"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a> 
+                    <a href="#"><i class="fab fa-google-plus-g" style="color: #d6492f;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Top short contact end -->
+
+
+        <!-- Navbar start -->
+    <nav class="navbar navbar-expand-md sticky-top main-nav">
+        <div class="container">
+          <a class="navbar-brand" href=".short-contact"><i class="fas fa-pizza-slice mr-2"></i><span>Ri</span>storanti</a>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto main-nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href=".short-contact">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".about-scroll">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".space-between-2div">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".re-section">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=".gallery-container">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-right" href=".contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+        <!-- Navbar end -->
+
+        <!-- Back to top -->
+    <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <!--  -->
+
+        <!-- Landing page carousel-->
+    <div id="landing-page" class="carousel slide carousel-fade" data-interval="6000" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#landing-page" data-slide-to="0" class="active"></li>
+        <li data-target="#landing-page" data-slide-to="1"></li>
+        <li data-target="#landing-page" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner landing-page-c">
+        <div class="carousel-item active">
+          <div class="img-overlay">
+            <img src="images/land1.jpg" alt="delicious desert with strawberries and honey" class="img-fluid">
+          </div>
+          <div class="carousel-caption landing-page-b text-center text-md-left">
+            <h4 class="ltr-1">Save up to 20%</h4>
+            <h1 class="my-sm-4 ltr-2">Best In Town</h1>
+            <h4 class="my-sm-4 ltr-3"><i>-Since -1988-</i></h4>
+            <button class="ltr-4">Discover Us</button>
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <div class="img-overlay">
+            <img src="images/land2.jpg" alt="cheeseburger and fries" class="img-fluid">
+          </div>
+          <div class="carousel-caption  text-center text-md-left">
+            <h4 class="ltr-1">Save up to 20%</h4>
+            <h1 class="my-sm-4 ltr-2">Best In Town</h1>
+            <h4 class="my-sm-4 ltr-3"><i>-Since -1988-</i></h4>
+            <button class="ltr-4">Discover Us</button>
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <div class="img-overlay">
+            <img src="images/land3.jpg" alt="pizza and glass of wine" class="img-fluid">
+          </div>
+          <div class="carousel-caption  text-center text-md-left">
+            <h4 class="ltr-1">Save up to 20%</h4>
+            <h1 class="my-sm-4 ltr-2">Best In Town</h1>
+            <h4 class="my-sm-4 ltr-3"><i>-Since -1988-</i></h4>
+            <button class="ltr-4">Discover Us</button>
+          </div>  
+        </div>
+      </div>
+      <a class="carousel-control-prev carousel-slider" href="#landing-page" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next carousel-slider" href="#landing-page" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+        <!-- Landing page carousel end-->
+        
+
+        <!-- About section -->
+    <div class="container about-section about-scroll"  data-easy-reveal="fade-in-up">
+      <div class="row mb-4 text-center">
+        <div class="col about-title">
+          <h4>Welcome To</h4>
+          <h2><span>Ri</span>storanti</h2>
+        </div>
+      </div>
+        <!-- Meet our team section start -->
+      <div class="row">
+        <div class="col about-subtitle">
+          <h4>Meet Our Team</h4>
+        </div>
+      </div>
+      <div class="row our-team mt-4 text-center mx-auto">
+        <div class="col-md-4 my-2">
+          <div class="card">
+              <img class="card-img-top" src="images/teampic1.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Jane Roe</h4>
+              <h6>Manager</h6>
+              <p class="card-text"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</i></p>
+              <hr>
+              <p class="text-center social-media">
+                <a href="javascript:void(0);"><i class="fab fa-facebook-square"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="card mt-4 cardmargin">
+              <img class="card-img-top" src="images/teampic2.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <h6>Head Chef</h6>
+              <p class="card-text"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</i></p>
+              <hr>
+              <p class="text-center social-media">
+                <a href="javascript:void(0);"><i class="fab fa-facebook-square"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-2">
+          <div class="card">
+              <img class="card-img-top" src="images/teampic3.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Jane Roe</h4>
+              <h6>Chef</h6>
+              <p class="card-text"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</i></p>
+              <hr>
+              <p class="text-center social-media">
+                <a href="javascript:void(0);"><i class="fab fa-facebook-square"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a> 
+                <a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Meet our team section end-->
+    
+          <!-- Our service section start -->
+    <div class="container-fluid mt-5 our-services-bg" data-easy-reveal="fade-in-up">
+      <div class="container about-section our-services">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 about-subtitle h-100 my-auto">
+            <h4 class="my-3">Our Services</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="item-wrap col-sm-12">
+              <div class="service-item  clearfix">
+                <div class="service-icon float-left">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div class="service-description">
+                  <h5>Food &amp; Wine</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+            </div>
+            <div class="item-wrap item-wrap-second col-sm-12">
+              <div class="service-item  clearfix">
+                <div class="service-icon float-left">
+                  <i class="fas fa-glass-cheers"></i>
+                </div>
+                <div class="service-description">
+                  <h5>Party &amp; Event</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+            </div>
+            <div class="item-wrap col-sm-12">
+              <div class="service-item  clearfix">
+                <div class="service-icon float-left">
+                  <i class="fas fa-car-side"></i>
+                </div>
+                <div class="service-description">
+                  <h5>Free Delivery</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Our service section end -->
+          <!-- About section end -->
+
+    <div class="container space-between-2div"></div>
+    <!-- Menu section start-->
+    <div class="container-fluid menu-bg w-100 pb-4 mt-2"  data-easy-reveal="fade-in-up">
+      <div class="container menu-section">
+        <div class="row menu-title d-block">
+          <h4>Our Menu <i class="far fa-list-alt"></i></h4>
+        </div>
+        <!-- Menu nav start -->
+        <div class="row">
+          <nav class="mx-auto mt-5 pt-3">
+            <div class="nav" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active px-4" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Breakfast</a>
+              <a class="nav-item nav-link px-4" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Lunch</a>
+              <a class="nav-item nav-link px-4" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Dinner</a>
+            </div>
+          </nav>
+        </div>
+        <!-- Menu nav end -->
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+           <!-- Menu row start -->
+            <div class="row menu-fadein1">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left" alt="salad">
+                <h4>Salad<span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left" alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein2">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein3">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <!-- Menu row start -->
+            <div class="row menu-fadein1">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein2">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein3">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <!-- Menu row start -->
+            <div class="row menu-fadein1">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein2">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+            <!-- Menu row start -->
+            <div class="row menu-fadein3">
+              <div class="col-md-6  mt-5 mx-auto menu-item pr-sm-5">
+                <img src="images/menupic1.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="col-md-6  mt-5 mx-auto  menu-item pl-sm-5">
+                <img src="images/menupic2.png" width="120" height="120" class="float-left " alt="salad">
+                <h4>Salad <span class="float-right"> 15$</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Menu section end -->
+
+      <!-- Reservation start-->
+    <div class="container re-section"  data-easy-reveal="fade-in-up">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6 justify-content-center">
+          <h3 class="py-5 text-center">Table Reservation</h3>
+          <form class="row" id="reservation" action="javascript:void(0);" method="post">
+            <div class="col-12 col-sm-6 my-2">
+              <label for="inputName">Name: </label>
+              <input type="text" id="inputName" class="form-control" placeholder="Name" minlength="3" required="required">
+            </div>
+            <div class="col-12 col-sm-6 my-2">
+              <label for="inputPhone">Phone: </label>
+              <input type="text" id="inputPhone" class="form-control phone-no" placeholder="Phone number" maxlength="15" required="required">
+            </div>
+            <div class="col-12 col-sm-6 my-2">
+              <div>
+                <label for="guestNumber">Guests: </label>
+                <select class="form-control" id="guestNumber">
+                  <option value="0">Number of Guests</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">10+</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 smoking my-2">
+              <div class="mb-2">Smoking</div>
+              <div class="btn-group w-100" data-toggle="buttons">
+                <label class="btn btn-primary px-3">
+                  <input type="radio" name="non-smoker" id="option1">No <i class="fas fa-smoking-ban"></i>
+                </label>
+                <label class="btn btn-primary px-3">
+                  <input type="radio" name="smoker" id="option2">Yes <i class="fas fa-smoking"></i>
+                </label>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 my-2">
+               <label for="datePick">Date: </label>
+               <input id="datePick" type="text" class="form-control" placeholder="Date" required="required">
+            </div>
+            <div class="col-12 col-sm-6 my-2">
+                <label for="timePick">Time: </label>
+                <input id="timePick" type="text" class="form-control" placeholder="Time" required="required">
+            </div>
+            <div class="col-12 my-2">
+              <label for="user-message">Message: </label>
+              <textarea name="message" id="user-message" class="form-control" placeholder="Your message" rows="5"></textarea>
+            </div>
+            <div class="col-12 text-center mt-3 mb-4">
+              <button type="submit" class="btn btn-primary">Book now</button>
+            </div>
+          </form>  
+          </div>
+        </div>
+      </div>
+          <!-- Reservation End -->
+
+
+  <div class="container-fluid p-3 gallery-bg mt-5 mb-4" data-easy-reveal="fade-in-up">
+          <!-- Image gallery -->
+    <div class="container gallery-container"  data-easy-reveal="fade-in-up">
+      <div class="row">
+        <div class="col-12 title-design text-center pb-5">
+          <span class="bottom-line d-inline-block"></span>
+          <span class="right-line d-inline-block"></span>
+          <span class="title d-inline-block px-2">Gallery</span>
+          <span class="left-line d-inline-block"></span>
+          <span class="bottom-line2 d-inline-block"></span>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center">
+          <h3 class="mb-3">Sit amet</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr style="border-top: 1px dotted #f9b129;">
+          <p class="text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        </div>
+        <div class="col-sm-12 col-md-8">
+            <div class="row photos">
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery1.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery1.jpg" alt="gallery pic"></a></div>
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery2.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery2.jpg" alt="gallery pic"></a></div>
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery3.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery3.jpg" alt="gallery pic"></a></div>
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery4.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery4.jpg" alt="gallery pic"></a></div>
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery5.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery5.jpg" alt="gallery pic"></a></div>
+              <div class="col-sm-12 col-md-6 col-lg-4 item"><a href="images/gallery6.jpg" data-lightbox="photos"><img class="img-fluid" src="images/gallery6.jpg" alt="gallery pic"></a></div>
+            </div>
+        </div>
+
+        <!-- Carousel testimonials-->
+        <div class="col-12 mt-4 mb-5 pb-3 pt-2 testimonials"  data-easy-reveal="fade-in-up">
+          <div id="carouselExampleControls" class="carousel slide" data-interval="0" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-10 col-md-8 mx-auto">
+                  <div class="d-block m-1 quote text-center"><i class="fas fa-quote-left"></i>
+                  </div>
+                  <p class=" mx-auto text-center">In pellentesque massa placerat duis. Elit eget gravida cum sociis natoque penatibus et. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.</p>
+                  <hr>
+                  <img class="float-left mr-3" src="images/teampic1.jpg" alt="First slide">
+                  <div class="userName">Jane Doe</div>
+                  <div class="userType mb-2">Customer</div>
+                  <div class="userRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="float-right">15.12.2019</span></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-10 col-md-8 mx-auto">
+                  <div class="d-block m-1 quote text-center"><i class="fas fa-quote-left"></i>
+                  </div>
+                  <p class=" mx-auto text-center">In pellentesque massa placerat duis. Elit eget gravida cum sociis natoque penatibus et. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.</p>
+                  <hr>
+                  <img class="float-left mr-3" src="images/teampic2.jpg" alt="First slide">
+                  <div class="userName">John Doe</div>
+                  <div class="userType mb-2">Customer</div>
+                  <div class="userRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><span class="float-right">15.12.2019</span></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-10 col-md-8 mx-auto">
+                  <div class="d-block m-1 quote text-center"><i class="fas fa-quote-left"></i>
+                  </div>
+                  <p class=" mx-auto text-center">In pellentesque massa placerat duis. Elit eget gravida cum sociis natoque penatibus et. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.</p>
+                  <hr>
+                  <img class="float-left mr-3" src="images/teampic3.jpg" alt="First slide">
+                  <div class="userName">Jane Roe</div>
+                  <div class="userType mb-2">Customer</div>
+                  <div class="userRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <span class="float-right">15.12.2019</span></div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div> <!-- Carousel testimonials end-->
+      </div>
+    </div>
+  </div>
+          <!-- Contact -->
+  <div class="container contact mb-4"  data-easy-reveal="fade-in-up">
+    <div class="row">
+      <div class="col-12 text-center pb-4 title-design2">
+        <span class="right-circle-s d-inline-block align-middle"></span>
+        <span class="right-circle-m d-inline-block align-middle"></span>
+        <span class="title d-inline-block px-2">Contact</span>
+        <span class="left-circle-m d-inline-block align-middle"></span>
+        <span class="left-circle-s d-inline-block align-middle"></span>
+      </div>
+      <div class="col-sm-12 col-md-4 py-5 contact-info">
+        <h6><i class="far fa-clock mr-4"></i> Open daily</h6>
+        <p class="ml-5"> 09:30 am - 11:30 pm</p>
+        <h6><i class="fas fa-map-marker-alt mr-4"></i> Adress</h6>
+        <p class="ml-5">Oradea, Parcul 1 Decembrie</p>
+        <h6><i class="fas fa-phone-alt mr-4"></i> Phone number</h6>
+        <p class="ml-5"> <a href="tel:0123-123456789">0123-123456789</a></p>
+        <h6><i class="far fa-envelope mr-4"></i> Message to us</h6>
+        <p class="ml-5"><a href="mailto:webmaster@example.com">ristoranti@gmail.com</a></p>
+      </div>
+      <div class="col-sm-12 col-md-8 map-responsive">
+        <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.3362467116463!2d21.932655215131675!3d47.05325403403188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647ef64a05d55%3A0x5d713a03f5237de5!2sParcul%201%20Decembrie%2C%20Oradea!5e0!3m2!1sen!2sro!4v1576549077455!5m2!1sen!2sro" width="100" height="300" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <div class="col-12 p-2 mt-4 subscribe">
+        <h6 class="text-center col-12 mb-3">Subscribe to our newsletter</h6>
+        <form action="javascript:void(0);" method="post">
+          <div class="col-lg-6 col-sm-12 mx-auto input-group mb-3">
+            <input type="email" class="form-control" placeholder="Enter your email" required="required" minlength="3">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="submit">Button</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+      <!-- Contact end -->
+
+      <!-- Footer -->
+  <footer id="sticky-footer" class="py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 text-center">
+          <a class="footer-brand" href="javascript:void(0);"><i class="fas fa-pizza-slice mr-2"></i><span>Ri</span>storanti</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod. </p>
+          <hr>
+          <a href="javascript:void(0);"><i class="fab fa-facebook-square p-2" style="color: #4267b2;"></i></a> 
+          <a href="javascript:void(0);"><i class="fab fa-twitter p-2" style="color: #1DA1F2;"></i></a> 
+          <a href="javascript:void(0);"><i class="fab fa-google-plus-g p-2" style="color: #d6492f;"></i></a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>Links</h3>
+          <ul class="footer-detail">
+            <li><a href="javascript:void(0);">Lorem</a></li>
+            <li><a href="javascript:void(0);">Ipsum</a></li>
+            <li><a href="javascript:void(0);">Dolor</a></li>
+            <li><a href="javascript:void(0);">Sit Amet</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3>Services</h3>
+          <ul class="footer-detail">
+            <li><a href="javascript:void(0);">Lorem</a></li>
+            <li><a href="javascript:void(0);">Ipsum</a></li>
+            <li><a href="javascript:void(0);">Dolor</a></li>
+            <li><a href="javascript:void(0);">Sit Amet</a></li>
+          </ul>
+        </div>
+        <div class="col-12 copy-r text-center mt-3">
+          <div>&copy; <span>Ri</span>storanti 2019</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+      <!-- Footer end -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/smothancor.js"></script>
+    <script src="js/jquery.easy-reveal.js"></script>
+    <!-- <script src="js/countUp.js"></script> -->
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="js/phonenr.js"></script>
+    <script src="js/backtotop.js"></script>
+    <script src="js/datepick.js"></script>
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
+</body>
+</html>
